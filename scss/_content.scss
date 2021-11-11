@@ -1,0 +1,20 @@
+$bg-light:#3E3243;
+$bg-dark:#03685B;
+.htmlh1 {
+    font-size: 1em;
+}
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.box {
+    @include sizes(500px, 50px);
+}
+
+@media screen and (max-width: 580px) {
+    #exposiciont {
+        font-size: 1em;
+    }
+}

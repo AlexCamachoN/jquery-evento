@@ -4,7 +4,8 @@ const productos = [{
         nombre: "pintura erotica",
         fichatecnica: "oleo/lienzo",
         medidas: "50 x 50cm",
-        precio: 14999
+        precio: 14999,
+        genero: "abstracto"
     },
     {
         id: 2,

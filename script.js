@@ -19,6 +19,12 @@ $(document).ready(function() {
 
     //MARCAR COMO ATRIBUTO PAFA FILTRAR
     $("#miSeleccion option[value='pordefecto']").attr("selected", true);
+
+    //--------------------Animaciones-------------------------
+    $(".galeria").prepend("<h1 class='text-center' id='desct'>LIQUIDACION DEL 20-12 AL 30-12</h1>"); //titulo DE LIQUIDACION
+    $("#desct").css({ background: 'yellow', color: 'red' })
+        .slideUp(2000)
+        .slideDown(2000);
 });
 
 
@@ -70,8 +76,6 @@ function liquidacionProductos() {
     }
 
 }
-
-
 
 
 //esta funcion permite hcer un evento cuando le das click al boton comprar

@@ -1,0 +1,50 @@
+//header de index-porque en responsive deja bastante espacio?
+
+/*estilos generales*/
+
+* {
+    font-family: openSansCustom;
+    background-color: darkgray;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: 260px;
+    height: 205px;
+    margin: 5px;
+    background-color: #DAF7A6;
+}
+
+#formulario label {
+    background-color: #DAF7A6;
+}
+
+.iText {
+    background-color: whitesmoke;
+}
+
+#botones {
+    background-color: #DAF7A6;
+}
+
+#btnSubmit,
+#btnMostrar {
+    margin-top: 25px;
+    width: 90px;
+    height: 30px;
+}
+
+#containerPrincipal {
+    display: flex;
+    flex-direction: row;
+}
+
+#displayTodos,
+#displayTodos p,
+#displayTodos strong,
+#displayTodos h3 {
+    background-color: #DAF7A6;
+    margin: 5px;
+}

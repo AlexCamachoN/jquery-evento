@@ -6,14 +6,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- mi css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Clase 12</title>
+    <title>carrito</title>
 </head>
-​
 
 <body>
-    <div class="container p-4">
+    <!-- inicia nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/camacho_png_blanco (1).png" alt="pintura con logo que es la firma del pintor">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.html">Carrito de compras</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- termina nav -->
+
+    <div class="container">
         <div id="fila_prueba" class="row" style="background-color:#aaa">
             <div class="col">
                 <h1 class="text-center">Galeria de Arte</h1>
@@ -53,17 +86,24 @@
                 </ul>
                 <p></p>
             </article>
-            <div id="dscto_cincuenta" class="row" style="background-color:#aaa">
+            <div id="dscto_cincuenta" class="row descuento" style="background-color:#aaa">
                 <div class="col">
-                    <h1 class="text-center">OBRAS CON 50% DSCTO</h1>
+                    <h1 class="text-center galeria">OBRAS CON 50% DSCTO</h1>
                 </div>
             </div>
-            <article class=" col-md-2">
+            <article class="col-md-2">
                 <ul class="liqlista list-group list-group-horizontal ">
                     <!-- Aqui los productos de liquidacion -->
                 </ul>
                 <p></p>
+            </article>
         </div>
+        <div id="dscto_cincuenta" class="row descuento" style="background-color:#aaa">
+            <div class="col">
+                <h1 class="text-center">haciendo responsive</h1>
+            </div>
+        </div>
+
 
     </div>
     <!-- JavaScript Bundle with Popper -->
